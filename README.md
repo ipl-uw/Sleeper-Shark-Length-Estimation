@@ -99,5 +99,7 @@ The following outputs will be generated (based on what flags you set in the conf
 - **Videos**: Generated videos combining processed frames to show the segmentation and midline estimation in motion. These will be saved in the `VIDEO_OUTPUT_PATH` directory.
 
 - **JSON Files**: Metadata for each processed frame, including mask contours and fish information. These will be saved in the `JSON_OUTPUT_PATH` directory.
+  ![JSON Example](images/json.png "Example of a JSON file")
 
 - **CSV File**: A file containing detailed results for each frame, including midline points, bounding boxes, and pixel lengths. This will be saved in the `CSV_PATH`.
+  ![csv Example](images/csv.png "Example of a csv file")
