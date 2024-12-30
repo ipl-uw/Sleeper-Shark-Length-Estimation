@@ -1,5 +1,11 @@
 # Midline pixel length to real world length 
-
+Run the following command for length conversion
+```bash
+python calibration.py
+```
+## Calibration image example
+In order to convert the pixel length to real world length, we need to use a calibration pattern of known size.  The preferred calibration image would have a checkerboard pattern held parallel to and as close to the water surface as possible, like below.
+![Alt text](images/calibration_water_surface.JPG "example calibration image")
 ## Calibration config
 For calibration, we have three sets of configuration parameters.  First are the input and output paths. Next are the parameters for the checkboard pattern used for calibration.  Finally, we have the method used to determine overall track length.
 ![Alt text](images/calibration_config.JPG "calibration file")
